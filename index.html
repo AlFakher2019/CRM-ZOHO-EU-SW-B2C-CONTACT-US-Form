@@ -308,7 +308,16 @@
         var isSalesIQIntegrationEnabled = false;
         var salesIQFieldsArray = [];
         
-       
+        window.addEventListener('message', function (event) {
+                const email = event.data;
+
+             if (typeof email === "string" && email.includes("@")) {
+                const emailInput = document.forms["form"]["Email"];
+                    if (emailInput) {
+                   emailInput.value = email;
+             }
+            }
+          });
         
         
         </script>
