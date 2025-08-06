@@ -82,7 +82,7 @@ video {
 }
 
 body {
-  font-family: "GreycliffCF-DemiBold";
+  font-family: 'Poppins', sans-serif;
   background-attachment: fixed;
   margin: 0 auto;
 }
@@ -300,7 +300,7 @@ ul {
   padding: 0;
 }
 .zf-tempFrmWrapper .zf-labelName {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   color: #101114;
 }
@@ -309,7 +309,7 @@ ul {
   background: #fff;
   border: 1px solid rgba(184, 187, 211, 1);
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 14px;
   height: 56px;
   transition: 0.3s;
   vertical-align: middle;
@@ -364,7 +364,7 @@ ul {
 .zf-address .zf-tempContDiv label,
 .zf-name .zf-tempContDiv span label {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   color: #101114;
 }
 .zf-phone .zf-tempContDiv span label {
